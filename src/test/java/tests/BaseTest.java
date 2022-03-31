@@ -39,7 +39,7 @@ public class BaseTest {
 		 
 		
 			prop.load(fis);
-			
+		
 	
 	
 			driver.get(prop.getProperty("url"));
