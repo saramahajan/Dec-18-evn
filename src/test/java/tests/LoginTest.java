@@ -26,7 +26,7 @@ public class LoginTest extends BaseTest {
 	
 		 lp=new LoginPage(driver);
 			lp.login(user, pass);
-			//Samjya KYa
+		
 	  }
 	
 	
