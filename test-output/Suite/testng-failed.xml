@@ -6,20 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.KiteHomeTest">
+      <class name="tests.LogoutTest">
         <methods>
-          <include name="Login"/>
-          <include name="teardown"/>
-          <include name="Init"/>
+          <include name="Logout"/>
+          <include name="inialization"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- tests.KiteHomeTest -->
-      <class name="tests.KiteLoginTest">
-        <methods>
-          <include name="Login"/>
-          <include name="teardown"/>
-          <include name="Init"/>
-        </methods>
-      </class> <!-- tests.KiteLoginTest -->
+      </class> <!-- tests.LogoutTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

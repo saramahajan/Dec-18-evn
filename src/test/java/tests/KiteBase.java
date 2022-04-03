@@ -29,7 +29,7 @@ public class KiteBase {
 		driver.manage().window().maximize();
 		
 		String path=System.getProperty("user.dir")+"\\src\\test\\resources\\config.properties";
-		
+		System.out.println(path);
 		Properties prop=new Properties();
 		FileInputStream fis =new FileInputStream(path);
 		prop.load(fis);
